@@ -8,26 +8,23 @@
     "test:staged": "jest"
   },
   "standard": {
-    "env": [
-      "jest"
-    ]
+    "env": ["jest"]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/morelierica/clean-node-api.git"
-  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "jest",
+    "tdd",
+    "clean architecture",
+    "design patterns"
+  ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/morelierica/clean-node-api/issues"
-  },
-  "homepage": "https://github.com/morelierica/clean-node-api#readme",
   "devDependencies": {
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^11.0.1",
     "standard": "^16.0.3",
     "ts-node": "^10.1.0"
-  },
-  "dependencies": {}
+  }
 }
